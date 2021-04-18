@@ -1,1 +1,33 @@
+.gridXo {
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px;
+	margin: auto;
+	justify-content: center;
+	width: 500px;
+	height: 500px;
 
+}
+
+.cell {
+	grid-column-end: span 1;
+	grid-row-end: span 1;
+	border: 2px solid;	
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+}
+
+h1 {
+	text-align: center;
+	color: blue;
+	font-size: 30px;
+}
+
+p {
+	text-align: center;
+	color: green;
+	font-size: 50px;
+}
